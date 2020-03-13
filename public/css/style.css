@@ -7,7 +7,6 @@ body{
     
 }
 
-button,
 input,
 select{
     padding: 6px 6px 6px 6px;
@@ -17,12 +16,6 @@ select{
     margin: 0;
     border: 0px;
     width: 155px;
-}
-
-button{
-    background-color: #47525e;
-    width: 175px;
-    color: white;
 }
 
 td{
@@ -68,7 +61,6 @@ td{
     border: 1px solid #999;
 }
 
-
 #listDiv{
     width: 70%;
     float: left;
@@ -108,11 +100,18 @@ td{
 
 .timeAction.ErrorTime{
     border: 1px solid red;
-    /* background-color: red; */
 }
 
 .buttonForm.disabled{
-        background-color: #eeeeee;
-        width: 175px;
-        color: white;
-    }
+    background-color: #eeeeee;
+    width: 175px;
+    color: white;
+    cursor: auto;
+}
+
+.buttonForm{
+    background-color: #47525e;
+    width: 175px;
+    color: white;
+    cursor: pointer;
+}
